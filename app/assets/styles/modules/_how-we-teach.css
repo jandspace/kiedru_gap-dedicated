@@ -1,0 +1,235 @@
+.how-we-teach {
+  width: 100%;
+  background-color: #EEEEEE;
+  min-height: 400px;
+
+
+  &__inner {
+    padding-top: 20px;
+
+    p {
+      font-size: 13px;
+      text-align: center;
+    }
+  }
+
+
+  &__chart {
+    position: relative;
+    width: 100%;
+    /*padding-top: 20px;*/
+    border-bottom: none;
+
+    .graph {
+      display: none;
+      @mixin atMedium {
+        display: block;
+        [class^=col-] {
+          height: 150px;
+          border-bottom: 4px solid #AAAAAA;
+        }
+      }
+    }
+    .desc {
+      clear: both;
+
+      [class^=col-] {
+        padding-bottom: 10px;
+        @mixin atSmall {
+          padding-bottom: 30px;
+        }
+        @mixin atMedium {
+          padding-bottom: 0;
+        }
+      }
+      @mixin atSmall {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: stretch;
+      }
+    }
+
+    ._icon--person {
+      display: none;
+      position: absolute;
+      left: 50%;
+      margin-left: -60px;
+      bottom: 20px;
+
+
+      @mixin atSmall{
+
+        display: block;
+
+      }
+    }
+
+  }
+
+}
+
+body.language-dir-rtl {
+  .how-we-teach {
+    &__chart {
+      ._icon--person {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+      }
+    }
+  }
+}
+
+.chart {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width:80px;
+  height: 140px;
+  left: 50%;
+  margin-left: -40px;
+
+
+  background: rgba(9,93,133,1);
+  background: -moz-linear-gradient(45deg, rgba(9,93,133,1) 0%, rgba(0,125,179,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(9,93,133,1)), color-stop(100%, rgba(0,125,179,1)));
+  background: -webkit-linear-gradient(45deg, rgba(9,93,133,1) 0%, rgba(0,125,179,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(9,93,133,1) 0%, rgba(0,125,179,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(9,93,133,1) 0%, rgba(0,125,179,1) 100%);
+  background: linear-gradient(45deg, rgba(9,93,133,1) 0%, rgba(0,125,179,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#095d85', endColorstr='#007db3', GradientType=1 );
+
+
+  @mixin atSmall{
+
+    display: block;
+
+  }
+
+  &--chart1 {
+    height: 20px;
+  }
+
+  &--chart2 {
+    height: 40px;
+  }
+
+
+  &--chart3 {
+    height: 60px;
+  }
+
+  &--chart4 {
+    height: 80px;
+  }
+
+
+  &--chart5 {
+    height: 100px;
+  }
+
+
+  &--chart6 {
+    height: 120px;
+  }
+
+
+}
+
+
+.chart-desc {
+  height: 100%;
+  text-align: center;
+  background-color: #FFFFFF;
+  padding: 5px;
+  overflow: hidden;
+
+  @mixin atMedium {
+    background-color: transparent;
+    padding: 0;
+  }
+
+  &__title {
+    font-size: 14px;
+    color: #240F6E;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 15px;
+    @mixin atMedium {
+      font-size: 16px;
+    }
+    @mixin atLarge {
+      font-size: 18px;
+    }
+  }
+
+
+  &__sub-title {
+    font-size: 14px;
+    color: #240F6E;
+    margin-top: 5px;
+
+
+  }
+
+  &__description {
+    font-size: 13px;
+    color: #606060;
+
+  }
+
+
+}
+
+.collapsed-wrapper {
+  display: none;
+
+  @mixin atMedium {
+    display: block;
+  }
+}
+
+.guaranteed-progress {
+  margin-top: 3%;
+  padding: 20px;
+  background-color: #e9e7f0;
+  border: 1px solid rgba(36, 15, 110, 0.1);
+  border-bottom: 5px solid rgba(36, 15, 110, 0.1);
+  
+  img {
+    width: 70px;
+    height: 70px;
+    float: left;
+    overflow: hidden;
+    margin: 0 15px 8px 0;
+  }
+  h4 {
+    font-size: 14px;
+    color: #303030;
+    font-weight: 700;
+    margin: 0 0 6px 0;
+  }
+  .desc {
+    font-size: 13px;
+    color: #303030;
+    a {
+      text-decoration: underline;
+    }
+  }
+
+  @mixin atMedium {
+    padding: 2%;
+    h4 {
+      font-size: 18px;
+    }
+    img {
+      width: 86px;
+      height: 86px;
+    }
+    .desc {
+      font-size: 14px;
+    }
+  }
+}
