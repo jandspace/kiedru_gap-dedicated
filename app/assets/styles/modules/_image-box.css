@@ -63,12 +63,12 @@
   }
 
   &--bg1 {
-    background: url('https://assetlibs.kaplaninternational.com/_assets/about-benefits/images/hero-course.jpg') top center no-repeat;
+    background: url('//assetlibs.kaplaninternational.com/_assets/about-benefits/images/hero-course.jpg') top center no-repeat;
     background-size: cover;
   }
 
   &--bg2 {
-    background: url('https://assetlibs.kaplaninternational.com/_assets/about-benefits/images/hero-destination-us.jpg') top center no-repeat;
+    background: url('//assetlibs.kaplaninternational.com/_assets/about-benefits/images/hero-destination-us.jpg') top center no-repeat;
     background-size: cover;
   }
 

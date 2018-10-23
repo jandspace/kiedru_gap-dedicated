@@ -5,10 +5,10 @@
 /* SECONDARY */
 .wrapper {
   max-width: 1170px;
-  margin-right: auto;
   margin-left: auto;
-  padding-right: 20px;
+  margin-right: auto;
   padding-left: 20px;
+  padding-right: 20px;
 }
 .wrapper:before {
   content: '';
@@ -21,13 +21,13 @@
 }
 @media (min-width: 890px) {
 .wrapper {
-    padding-right: 15px;
-    padding-left: 15px
+    padding-left: 15px;
+    padding-right: 15px
 }
   }
 html, body {
-  direction:rtl;
-  font-family: 'Droid Arabic Kufi', sans-serif;
+  direction:ltr;
+  font-family: 'Open Sans', sans-serif/*rtl:'Droid Arabic Kufi', sans-serif*/;
   color: #404040;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -65,8 +65,8 @@ ul li::before {
 .fullwidth { 
   width: 100vw;
   position: relative;
-  right: -o-calc(-50vw + 50%);
-  right: calc(-50vw + 50%);
+  left: -o-calc(-50vw + 50%);
+  left: calc(-50vw + 50%);
 }
 .fullwidth:before {
     content: " ";
@@ -145,185 +145,185 @@ body .node * {
 } */
 @media (min-width: 768px) {
 		body[dir=rtl] .col-sm-push-6 {
-			left: auto;
+			right: auto;
 		}
 		body[dir=rtl] .col-sm-pull-6 {
-			right: auto;
+			left: auto;
 		}
   }
 /* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
 Instead edit gulp/templates/sprite */
 .sprite-icon {
-  background-image: url('//assetlibs.kaplaninternational.com/_assets/summer2018/images/sprites/sprite-baa47697.svg');
+  background-image: url('//assetlibs.kaplaninternational.com/_assets/about-us/images/sprites/sprite-baa47697.svg')/*rtl:ignore*/;
 }
 .no-svg .sprite-icon {
-  background-image: url('//assetlibs.kaplaninternational.com/_assets/summer2018/images/sprites/sprite-baa47697.png');
+  background-image: url('//assetlibs.kaplaninternational.com/_assets/about-us/images/sprites/sprite-baa47697.png')/*rtl:ignore*/;
 
 }
-.icon--accommodation {
+._icon--accommodation {
   width: 34px;
   height: 34px;
-  background-position: 88.78116343490305% 82.26600985221675%;
+  background-position: 88.78116343490305% 82.26600985221675%/*rtl:ignore*/;
 }
-.icon--booking {
+._icon--booking {
   width: 17px;
   height: 17px;
-  background-position: 84.03247631935048% 71.39479905437352%;
+  background-position: 84.03247631935048% 71.39479905437352%/*rtl:ignore*/;
 }
-.icon--check {
+._icon--check {
   width: 16px;
   height: 14px;
-  background-position: 88.51351351351352% 70.89201877934272%;
+  background-position: 88.51351351351352% 70.89201877934272%/*rtl:ignore*/;
 }
-.icon--circle1 {
+._icon--circle1 {
   width: 252px;
   height: 302px;
-  background-position: 100% 0;
+  background-position: 100% 0/*rtl:ignore*/;
 }
-.icon--circle2 {
+._icon--circle2 {
   width: 252px;
   height: 302px;
-  background-position: 0 0;
+  background-position: 0 0/*rtl:ignore*/;
 }
-.icon--circle3 {
+._icon--circle3 {
   width: 252px;
   height: 302px;
-  background-position: 50% 0;
+  background-position: 50% 0/*rtl:ignore*/;
 }
-.icon--courses {
+._icon--courses {
   width: 34px;
   height: 34px;
-  background-position: 79.3628808864266% 82.26600985221675%;
+  background-position: 79.3628808864266% 82.26600985221675%/*rtl:ignore*/;
 }
-.icon--current-students {
+._icon--current-students {
   width: 72px;
   height: 72px;
-  background-position: 21.05263157894737% 90.76086956521739%;
+  background-position: 21.05263157894737% 90.76086956521739%/*rtl:ignore*/;
 }
-.icon--date {
+._icon--date {
   width: 17px;
   height: 16px;
-  background-position: 86.33288227334235% 71.22641509433963%;
+  background-position: 86.33288227334235% 71.22641509433963%/*rtl:ignore*/;
 }
-.icon--faq {
+._icon--faq {
   width: 34px;
   height: 34px;
-  background-position: 93.49030470914127% 82.26600985221675%;
+  background-position: 93.49030470914127% 82.26600985221675%/*rtl:ignore*/;
 }
-.icon--higher-education {
+._icon--higher-education {
   width: 34px;
   height: 34px;
-  background-position: 0 100%;
+  background-position: 0 100%/*rtl:ignore*/;
 }
-.icon--k-clubs {
+._icon--k-clubs {
   width: 83px;
   height: 24px;
-  background-position: 39.9702823179792% 72.59615384615384%;
+  background-position: 39.9702823179792% 72.59615384615384%/*rtl:ignore*/;
 }
-.icon--k-extra {
+._icon--k-extra {
   width: 82px;
   height: 24px;
-  background-position: 52.225519287833826% 72.59615384615384%;
+  background-position: 52.225519287833826% 72.59615384615384%/*rtl:ignore*/;
 }
-.icon--k-notes {
+._icon--k-notes {
   width: 85px;
   height: 24px;
-  background-position: 27.421758569299552% 72.59615384615384%;
+  background-position: 27.421758569299552% 72.59615384615384%/*rtl:ignore*/;
 }
-.icon--k-tools {
+._icon--k-tools {
   width: 82px;
   height: 24px;
-  background-position: 64.39169139465875% 72.59615384615384%;
+  background-position: 64.39169139465875% 72.59615384615384%/*rtl:ignore*/;
 }
-.icon--kaplan-logo {
+._icon--kaplan-logo {
   width: 184px;
   height: 32px;
-  background-position: 0 74.01960784313725%;
+  background-position: 0 74.01960784313725%/*rtl:ignore*/;
 }
-.icon--ki-80-years {
+._icon--ki-80-years {
   width: 72px;
   height: 72px;
-  background-position: 10.526315789473685% 90.76086956521739%;
+  background-position: 10.526315789473685% 90.76086956521739%/*rtl:ignore*/;
 }
-.icon--ki-80-years-white {
+._icon--ki-80-years-white {
   width: 72px;
   height: 72px;
-  background-position: 31.57894736842105% 90.76086956521739%;
+  background-position: 31.57894736842105% 90.76086956521739%/*rtl:ignore*/;
 }
-.icon--kie-highly-recommended {
+._icon--kie-highly-recommended {
   width: 72px;
   height: 72px;
-  background-position: 42.10526315789474% 90.76086956521739%;
+  background-position: 42.10526315789474% 90.76086956521739%/*rtl:ignore*/;
 }
-.icon--kie-world-schools {
+._icon--kie-world-schools {
   width: 72px;
   height: 72px;
-  background-position: 52.63157894736842% 90.76086956521739%;
+  background-position: 52.63157894736842% 90.76086956521739%/*rtl:ignore*/;
 }
-.icon--kie-world-students {
+._icon--kie-world-students {
   width: 72px;
   height: 72px;
-  background-position: 63.1578947368421% 90.76086956521739%;
+  background-position: 63.1578947368421% 90.76086956521739%/*rtl:ignore*/;
 }
-.icon--left-arrow {
+._icon--left-arrow {
   width: 22px;
   height: 22px;
-  background-position: 79.29155313351498% 72.2488038277512%;
+  background-position: 79.29155313351498% 72.2488038277512%/*rtl:ignore*/;
 }
-.icon--location {
+._icon--location {
   width: 17px;
   height: 17px;
-  background-position: 81.7320703653586% 71.39479905437352%;
+  background-position: 81.7320703653586% 71.39479905437352%/*rtl:ignore*/;
 }
-.icon--mail {
+._icon--mail {
   width: 22px;
   height: 22px;
-  background-position: 70.29972752043597% 72.2488038277512%;
+  background-position: 70.29972752043597% 72.2488038277512%/*rtl:ignore*/;
 }
-.icon--pathways {
+._icon--pathways {
   width: 34px;
   height: 34px;
-  background-position: 4.7091412742382275% 100%;
+  background-position: 4.7091412742382275% 100%/*rtl:ignore*/;
 }
-.icon--person {
+._icon--person {
   width: 35px;
   height: 42px;
-  background-position: 69.90291262135922% 83.91959798994975%;
+  background-position: 69.90291262135922% 83.91959798994975%/*rtl:ignore*/;
 }
-.icon--phone {
+._icon--phone {
   width: 22px;
   height: 22px;
-  background-position: 73.29700272479565% 72.2488038277512%;
+  background-position: 73.29700272479565% 72.2488038277512%/*rtl:ignore*/;
 }
-.icon--right-arrow {
+._icon--right-arrow {
   width: 22px;
   height: 22px;
-  background-position: 76.29427792915531% 72.2488038277512%;
+  background-position: 76.29427792915531% 72.2488038277512%/*rtl:ignore*/;
 }
-.icon--scholl {
+._icon--scholl {
   width: 34px;
   height: 34px;
-  background-position: 98.1994459833795% 82.26600985221675%;
+  background-position: 98.1994459833795% 82.26600985221675%/*rtl:ignore*/;
 }
-.icon--school {
+._icon--school {
   width: 34px;
   height: 34px;
-  background-position: 74.65373961218836% 82.26600985221675%;
+  background-position: 74.65373961218836% 82.26600985221675%/*rtl:ignore*/;
 }
-.icon--study-with-us {
+._icon--study-with-us {
   width: 72px;
   height: 72px;
-  background-position: 0 90.76086956521739%;
+  background-position: 0 90.76086956521739%/*rtl:ignore*/;
 }
-.icon--travel {
+._icon--travel {
   width: 34px;
   height: 34px;
-  background-position: 84.07202216066482% 82.26600985221675%;
+  background-position: 84.07202216066482% 82.26600985221675%/*rtl:ignore*/;
 }
-.icon--visa {
+._icon--visa {
   width: 34px;
   height: 34px;
-  background-position: 9.418282548476455% 100%;
+  background-position: 9.418282548476455% 100%/*rtl:ignore*/;
 }
 .page-section {
   padding: 30px 0;
@@ -349,6 +349,8 @@ Instead edit gulp/templates/sprite */
     height: 80px;
     margin: 0 auto 0.5em;
     overflow: hidden;
+    border: 1px solid #240F6E;
+    border-radius: 50%;
   }
 .how-we-teach {
   width: 100%;
@@ -416,18 +418,12 @@ Instead edit gulp/templates/sprite */
                 align-items: stretch
     }
   }
-.how-we-teach__chart ._icon {
-      background-image: url(//assetlibs.kaplaninternational.com/_assets/about-us/images/sprites/sprite-baa47697.svg);
-    }
 .how-we-teach__chart ._icon--person {
       display: none;
       position: absolute;
-      right: 50%;
-      margin-right: -60px;
+      left: 50%;
+      margin-left: -60px;
       bottom: 20px;
-      width: 35px;
-      height: 42px;
-      background-position: 69.90291262135922% 83.91959798994975%;
     }
 @media (min-width: 768px) {
 .how-we-teach__chart ._icon--person {
@@ -445,13 +441,13 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
   bottom: 0;
   width:80px;
   height: 140px;
-  right: 50%;
-  margin-right: -40px;
+  left: 50%;
+  margin-left: -40px;
 
 
   background: rgba(9,93,133,1);
-  background: -webkit-gradient(right bottom, left top, color-stop(0%, rgba(9,93,133,1)), color-stop(100%, rgba(0,125,179,1)));
-  background: linear-gradient(-45deg, rgba(9,93,133,1) 0%, rgba(0,125,179,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(9,93,133,1)), color-stop(100%, rgba(0,125,179,1)));
+  background: linear-gradient(45deg, rgba(9,93,133,1) 0%, rgba(0,125,179,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#095d85', endColorstr='#007db3', GradientType=1 );
 
 
@@ -547,9 +543,9 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
 .guaranteed-progress img {
     width: 70px;
     height: 70px;
-    float: right;
+    float: left;
     overflow: hidden;
-    margin: 0 0 8px 15px;
+    margin: 0 15px 8px 0;
   }
 .guaranteed-progress h4 {
     font-size: 14px;
@@ -582,11 +578,11 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
 .progress-tab {
   position: relative;
   width: 100%;
-  float: right;
+  float: left;
 }
 .collapse-inner {
   width: 100%;
-  float: right;
+  float: left;
   padding-top: 6px;
 }
 .progress-desc {
@@ -646,12 +642,12 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
       }
 @media (min-width: 768px) {
 .node-hub .page-section .section-title--left {
-          text-align: right
+          text-align: left
 
       }
   }
 .node-hub .page-section .section-title--right {
-        text-align: left;
+        text-align: right;
       }
 .node-hub .page-section .section-title--lowercase {
         text-transform: capitalize;
@@ -699,13 +695,13 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
             }
 
             .node-hub .page-section .section-title--smaller span:before {
-              left: 100%;
-              margin-left: 15px;
+              right: 100%;
+              margin-right: 15px;
             }
 
             .node-hub .page-section .section-title--smaller span:after {
-              right: 100%;
-              margin-right: 15px;
+              left: 100%;
+              margin-left: 15px;
             }
   }
 .node-hub .page-section h3.section-subtitle {
@@ -732,12 +728,12 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
       }
 @media (min-width: 890px) {
 .node-hub .page-section h3.section-subtitle--left {
-          text-align: right
+          text-align: left
 
       }
   }
 .node-hub .page-section h3.section-subtitle--right {
-        text-align: left;
+        text-align: right;
       }
 .node-hub .page-section h3.section-subtitle--lowercase {
         text-transform: none;
@@ -830,7 +826,7 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
 ._btn--collapse:before {
       position: absolute;
       top: 5px;
-      right: 20px;
+      left: 20px;
       content: "–";
       display: inline-block;
       color: white;
@@ -853,8 +849,8 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
     min-width: 260px;
     overflow: hidden;
     white-space: nowrap;
-    background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(transparent), color-stop(#007DB3), color-stop(transparent), to(transparent));
-    background: linear-gradient(-270deg, transparent, transparent, #007DB3, transparent, transparent);
+    background: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(transparent), color-stop(#007DB3), color-stop(transparent), to(transparent));
+    background: linear-gradient(270deg, transparent, transparent, #007DB3, transparent, transparent);
     background-size: 800% 800%;
     -webkit-animation: MainCTAAni 5s ease infinite;
     animation: MainCTAAni 5s ease infinite;
@@ -864,7 +860,7 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
       position: absolute;
       z-index: -1;
       top: 0;
-      right: 0;
+      left: 0;
       width: 0;
       height: 100%;
       background-color: #007DB3;
@@ -905,12 +901,12 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
   }
 /* Gradient Animation */
 @-webkit-keyframes MainCTAAni {
-  0%{background-position:0% 50%}
-  100%{background-position:100% 50%}
+  0%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
 @keyframes MainCTAAni { 
-  0%{background-position:0% 50%}
-  100%{background-position:100% 50%}
+  0%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
 .collapsed-wrapper {
   display: none;
@@ -929,7 +925,7 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
       width: 100%;
       content: "";
       position: absolute;
-      right: 0;
+      left: 0;
       top: 16px;
       border-bottom: 1px solid #CCCCCC;
     }
@@ -937,10 +933,10 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
 .collapsed:before {
     content: "+";
     
-    padding-left: 3px;
+    padding-right: 3px;
     vertical-align: middle;
     color: white;
-    float: right;
+    float: left;
     
 
   }
@@ -975,8 +971,8 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
   transition: all .9s ease-out;
   -webkit-transform: scaleY(.0);
           transform: scaleY(.0);
-  -webkit-transform-origin: 100% 100%;
-          transform-origin: 100% 100%;
+  -webkit-transform-origin: 0 100%;
+          transform-origin: 0 100%;
 }
 .reveal-chart--is-visible {
     opacity: 1;
@@ -985,7 +981,8 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
   }
 .node-hub .large-hero {
     position: relative;
-    background: url('//assetlibs.kaplaninternational.com/_assets/about-guaranteed-progress/images/large-hero-small.jpg') top center no-repeat;
+    /*background: url('https://assetlibs.kaplaninternational.com/_assets/about-benefits/images/large-hero-small.jpg') top center no-repeat;*/
+    background: url('../../assets/images/large-hero-small.jpg') top center no-repeat;
     background-size: cover;
     background-color: #275db7;
     width: 100%;
@@ -993,7 +990,8 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
   }
 @media (min-width: 768px) {
 .node-hub .large-hero {
-      background: url('//assetlibs.kaplaninternational.com/_assets/about-guaranteed-progress/images/large-hero.jpg') top center no-repeat;
+      /*background: url('https://assetlibs.kaplaninternational.com/_assets/about-benefits/images/large-hero.jpg') top center no-repeat;*/
+      background: url('../../assets/images/large-hero.jpg') top center no-repeat;
       background-size: cover;
       min-height: 420px
   }
@@ -1012,11 +1010,11 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
       width: 100%;
       position: absolute;
       bottom: 0;
-      padding-right: 15px;
       padding-left: 15px;
+      padding-right: 15px;
       padding-top: 8%;
       padding-bottom: 8%;
-      background: -webkit-gradient(linear, right top, right bottom, from(rgba(36, 15, 110, 0)), color-stop(1%, rgba(36, 15, 110, 0)), color-stop(60%, rgba(36, 15, 110, 0.5)), to(rgba(36, 15, 110, 0.5)));
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 15, 110, 0)), color-stop(1%, rgba(36, 15, 110, 0)), color-stop(60%, rgba(36, 15, 110, 0.5)), to(rgba(36, 15, 110, 0.5)));
       background: linear-gradient(to bottom, rgba(36, 15, 110, 0) 0%, rgba(36, 15, 110, 0) 1%, rgba(36, 15, 110, 0.5) 60%, rgba(36, 15, 110, 0.5) 100%);
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00240f6e', endColorstr='#80240f6e', GradientType=0);
     }
@@ -1027,8 +1025,8 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
         -webkit-transform: translateY(-50%);
                 transform: translateY(-50%);
         -ms-transform: translateY(-50%);
-        padding-right: 15px;
         padding-left: 15px;
+        padding-right: 15px;
         width: 100%;
         background: none;
         padding-bottom: 0;
@@ -1043,7 +1041,7 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
         text-align: center;
         font-weight: 800;
         margin: 0 auto 10px auto;
-        text-shadow: -1px 1px 9px rgba(0, 0, 0, 0.4);
+        text-shadow: 1px 1px 9px rgba(0, 0, 0, 0.4);
 
       }
 @media (min-width: 768px) {
@@ -1072,7 +1070,7 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
         line-height: 1.25em;
         font-weight: 600;
         margin: 0 auto 10px auto;
-        text-shadow: -1px 1px 9px rgba(0, 0, 0, 0.4);
+        text-shadow: 1px 1px 9px rgba(0, 0, 0, 0.4);
 
       }
 @media (min-width: 768px) {
@@ -1098,7 +1096,7 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
         font-size: 14px;
         color: white;
         text-align: center;
-        text-shadow: -1px 1px 9px rgba(0, 0, 0, 0.4);
+        text-shadow: 1px 1px 9px rgba(0, 0, 0, 0.4);
         margin-bottom: 1.5em;
         font-weight: 700;
 
@@ -1126,8 +1124,8 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
       .node-hub .large-hero__content h3,
       .node-hub .large-hero__content p {
           max-width: 768px;
-          margin-right: auto;
-          margin-left: auto
+          margin-left: auto;
+          margin-right: auto
 
       }
   }
@@ -1151,8 +1149,8 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
       font-size: 14px;
       text-align: center;
       max-width: 860px;
-      margin-right: auto;
       margin-left: auto;
+      margin-right: auto;
       margin-bottom: 1.5em;
     }
 .node-hub .why-you-should-learn-english__p strong {
@@ -1183,7 +1181,7 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
 
     }
 .node-hub .why-you-should-learn-english__content-box {
-      float: right;
+      float: left;
       width: 100%;
       padding: 20px 0;
 
@@ -1220,12 +1218,12 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
       }
 @media (min-width: 768px) {
 .node-hub .why-you-should-learn-english__content-box p {
-          text-align: right
+          text-align: left
       }
   }
 .node-hub .why-you-should-learn-english__content-box ul {
         list-style: disc;
-        padding-right: 20px;
+        padding-left: 20px;
       }
 .node-hub .why-you-should-learn-english__content-box ul li {
           padding: 3px 0;
@@ -1278,10 +1276,10 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
   }
 .node-hub .why-you-should-learn-english .section-body .items .item:after {
             content: "";
-            background-image: url('//assetlibs.kaplaninternational.com/_assets/about-guaranteed-progress/images/gap-badge-en.svg');
+            background-image: url('../../assets/images/gap-badge.svg');
             position: absolute;
             bottom: 6px;
-            left: 6px;
+            right: 6px;
             width: 48px;
             height: 48px;
             border: 1px solid #240F6E;
@@ -1316,7 +1314,7 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
             line-height: 1.25;
             width: 100%;
             height: 100%;
-            text-align: right;
+            text-align: left;
             padding: 15px;
             font-weight: 600;
             font-size: 14px;
@@ -1331,43 +1329,21 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
             display: inline-block;
             position: absolute;
             font-size: 13px;
-            right: 15px;
+            left: 15px;
             bottom: 10px;
           }
 @media (min-width: 1170px) {
 .node-hub .why-you-should-learn-english .section-body .items .item .more {
-              right: 20px
+              left: 20px
           }
   }
 .node-hub .why-you-should-learn-english .section-body p {
         max-width: 960px;
         margin: 1.5em auto;
       }
-/* GAP BADGE TRANSLATION */
-:lang(de) .node-hub .why-you-should-learn-english .section-body .items .item:after {
-  background-image: url('//assetlibs.kaplaninternational.com/_assets/about-guaranteed-progress/images/gap-badge-de.svg');
-}
-:lang(es) .node-hub .why-you-should-learn-english .section-body .items .item:after {
-  background-image: url('//assetlibs.kaplaninternational.com/_assets/about-guaranteed-progress/images/gap-badge-es.svg');
-}
-:lang(fr) .node-hub .why-you-should-learn-english .section-body .items .item:after {
-  background-image: url('//assetlibs.kaplaninternational.com/_assets/about-guaranteed-progress/images/gap-badge-fr.svg');
-}
-:lang(it) .node-hub .why-you-should-learn-english .section-body .items .item:after {
-  background-image: url('//assetlibs.kaplaninternational.com/_assets/about-guaranteed-progress/images/gap-badge-it.svg');
-}
-:lang(ru) .node-hub .why-you-should-learn-english .section-body .items .item:after {
-  background-image: url('//assetlibs.kaplaninternational.com/_assets/about-guaranteed-progress/images/gap-badge-ru.svg');
-}
-:lang(tr) .node-hub .why-you-should-learn-english .section-body .items .item:after {
-  background-image: url('//assetlibs.kaplaninternational.com/_assets/about-guaranteed-progress/images/gap-badge-tr.svg');
-}
-:lang(pt) .node-hub .why-you-should-learn-english .section-body .items .item:after {
-  background-image: url('//assetlibs.kaplaninternational.com/_assets/about-guaranteed-progress/images/gap-badge-pt.svg');
-}
 .node-hub .contact-us {
     background: rgb(124, 111, 168);
-    background: -webkit-gradient(linear, right top, right bottom, from(rgba(124, 111, 168, 1)), to(rgba(36, 15, 110, 1)));
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(124, 111, 168, 1)), to(rgba(36, 15, 110, 1)));
     background: linear-gradient(to bottom, rgba(124, 111, 168, 1) 0%, rgba(36, 15, 110, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7c6fa8', endColorstr='#240f6e', GradientType=0);
   }
@@ -1382,8 +1358,8 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
 .node-hub .contact-us ._btn._main-cta-ani {
         background-color: #007DB3;
         border: 1px solid transparent;
-        background: -webkit-gradient(linear, left top, right top, from(#007DB3), color-stop(#007DB3), color-stop(#00E4FF), color-stop(#007DB3), to(#007DB3));
-        background: linear-gradient(-270deg, #007DB3, #007DB3, #00E4FF, #007DB3, #007DB3);
+        background: -webkit-gradient(linear, right top, left top, from(#007DB3), color-stop(#007DB3), color-stop(#00E4FF), color-stop(#007DB3), to(#007DB3));
+        background: linear-gradient(270deg, #007DB3, #007DB3, #00E4FF, #007DB3, #007DB3);
         background-size: 600% 600%;
         -webkit-animation: MainCTAAni 5s ease infinite;
         animation: MainCTAAni 5s ease infinite;
@@ -1423,7 +1399,7 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
           position: absolute;
           z-index: -1;
           top: 0;
-          right: 0;
+          left: 0;
           width: 0;
           height: 100%;
           background-color: #FFFFFF;
@@ -1451,8 +1427,8 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-left: -15px;
     margin-right: -15px;
+    margin-left: -15px;
     padding: 10px 0;
 
   }
@@ -1514,11 +1490,11 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
       width: 100%;
       height: 100%;
       top: 0;
-      right: 0;
       left: 0;
+      right: 0;
       bottom: 0;
       background: rgba(25, 20, 43, .1);
-      background: -webkit-gradient(linear, right top, right bottom, color-stop(0, rgba(25, 20, 43, .1)), color-stop(40%, rgba(25, 20, 43, .1)), to(rgba(25, 20, 43, .75)));
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(25, 20, 43, .1)), color-stop(40%, rgba(25, 20, 43, .1)), to(rgba(25, 20, 43, .75)));
       background: linear-gradient(to bottom, rgba(25, 20, 43, .1) 0, rgba(25, 20, 43, .1) 40%, rgba(25, 20, 43, .75) 100%);
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0019142b', endColorstr='#bf19142b', GradientType=0);
       -webkit-transition: all 0.5s ease;
@@ -1537,11 +1513,11 @@ body.language-dir-rtl .how-we-teach__chart ._icon--person {
         padding-top: 8px;
       }
 .image-box--bg1 {
-    background: url('//assetlibs.kaplaninternational.com/_assets/about-benefits/images/hero-course.jpg') top center no-repeat;
+    background: url('https://assetlibs.kaplaninternational.com/_assets/about-benefits/images/hero-course.jpg') top center no-repeat;
     background-size: cover;
   }
 .image-box--bg2 {
-    background: url('//assetlibs.kaplaninternational.com/_assets/about-benefits/images/hero-destination-us.jpg') top center no-repeat;
+    background: url('https://assetlibs.kaplaninternational.com/_assets/about-benefits/images/hero-destination-us.jpg') top center no-repeat;
     background-size: cover;
   }
 .image-box__btn-inner {

@@ -51,13 +51,18 @@
       }
     }
 
+    ._icon {
+      background-image: url(//assetlibs.kaplaninternational.com/_assets/about-us/images/sprites/sprite-baa47697.svg);
+    }
     ._icon--person {
       display: none;
       position: absolute;
       left: 50%;
       margin-left: -60px;
       bottom: 20px;
-
+      width: 35px;
+      height: 42px;
+      background-position: 69.90291262135922% 83.91959798994975%/*rtl:ignore*/;
 
       @mixin atSmall{
 
